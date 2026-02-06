@@ -1,10 +1,80 @@
 ---
 layout: protected-post
 title: "Rose Day 🌹"
-date:   2026-01-07 05:08:46 +0100
+date:   2026-02-07 00:08:46 +0100
 categories: jekyll update
 password: 11062024
 riddle: “Double ones start me, the sixth moon crowns me, and a year in which our hearts found home completes me.”
 ---
+Dear Rares,
+<p>For the longest time I've wondered what is it that one feels when they're in love? Is it just the butterflies they get? The longing to see each other? I've never found an answer or perhaps the right words to frame one. But I think to me love is peeling an orange, when the winter sun shines on your face. And I stare at your face, your eyes. They are of the most remarkable shade. And that is when my heart leaps. It wants to say, </p>
+<img src="{{ '/images/IMG_4984.jpg' | relative_url }}" 
+     alt="drawing" 
+     align="right" 
+     width="465px" 
+     style="margin-left: 15px; margin-bottom: 15px;">
 
- 
+<p style="text-align:center;font-style:italic;">
+I'd peel you an orange,<br>
+or my heart, or the night sky,<br>
+if the stars is what you want.<br><br>
+I'd peel back time,<br>
+if I could, if you felt like a second was wasted,<br>
+if a second needed to be felt again.<br><br>
+I'd peel you an orange,<br>
+even though you're able, <br>
+maybe just tired, stressed, or sad, <br>
+and carry underneath my fingernails any task you'd ask of me.<br><br>
+I'd peel you my heart ripe and opened,<br>
+place it in your hands with a smile.<br>
+Bless the exchange with a kiss to your forehead and simply say,<br>
+"its all yours"
+</p>
+<p> Maybe that's love! Hence, this page awaits for you today as a tender rose, as a symbol for my love for you.
+<div class="gallery">
+  {% for i in (1..7) %}
+    <div class="gallery-item">
+      <img src="{{ '/images/rose/image' | append: i | append: '.jpg' | relative_url }}" alt="Gallery image {{ i }}">
+    </div>
+  {% endfor %}
+</div>
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 25px;
+}
+.gallery-item {
+  text-align: center;
+}
+.gallery-item img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+.caption {
+  font-size: 1em;
+  margin-top: 8px;
+  color: #555;
+  font-style: italic;
+  line-height: 1.3;
+}
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .gallery-item img {
+    max-width: 90%;
+  }
+}
+</style>
