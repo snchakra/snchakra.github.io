@@ -22,7 +22,7 @@ title: The Waiting Pages
 email: snigdho.chakraborty@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This space was made for you — to open gently, follow the clues, and find what’s been waiting.
-baseurl: "/valentine-week" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
