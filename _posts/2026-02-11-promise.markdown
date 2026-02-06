@@ -1,0 +1,12 @@
+---
+layout: protected-post
+title: "Promise Day 🌹"
+date:   2026-02-11 05:08:46 +0100
+categories: jekyll update
+password: 2brokegirls
+riddle: “Some shows feel like home. Two girls, too little money, and laughter we keep choosing together. Type its name, and come in.”
+---
+
+If I could give you a rose  
+for every time you made me smile,  
+we’d be lost in red forever.

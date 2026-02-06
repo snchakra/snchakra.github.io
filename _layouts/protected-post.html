@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<p class="riddle">{{ page.riddle }}</p>
+<div class="card">
+  <h1>{{ page.title }}</h1>
+
+  <div id="password-box">
+    <p class="soft">This post is just for you 💌</p>
+    <input type="password" id="pw" placeholder="Password">
+    <button onclick="unlock()">Unlock</button>
+    <p id="error" style="display:none;">Wrong password 🥺</p>
+  </div>
+
+  <div id="post-content" style="display:none;">
+    {{ content }}
+  </div>
+</div>
+
+<script>
+  function unlock() {
+    const input = document.getElementById("pw").value;
+    const correct = "{{ page.password }}";
+
+    if (input === correct) {
+      document.getElementById("password-box").style.display = "none";
+      document.getElementById("post-content").style.display = "block";
+    } else {
+      document.getElementById("error").style.display = "block";
+    }
+  }
+</script>

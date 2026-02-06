@@ -1,0 +1,12 @@
+---
+layout: protected-post
+title: "Teddy Day 🌹"
+date:   2026-02-10 05:08:46 +0100
+categories: jekyll update
+password: jennifercoolidge
+riddle: “I make you laugh, I make you swoon, From Legally Blonde to American Pie’s cartoon. Type my name, the queen of comedy, And unlock a smile just for you.”
+---
+
+If I could give you a rose  
+for every time you made me smile,  
+we’d be lost in red forever.

@@ -1,0 +1,12 @@
+---
+layout: protected-post
+title: "Hug Day 🌹"
+date:   2026-02-12 05:08:46 +0100
+categories: jekyll update
+password: rosalia
+riddle: There’s history in her sound, and something unmistakably now. She sings with fire and tradition, flamenco reborn with a modern crown. You showed me her voice — name the artist who left me in awe.”
+---
+
+If I could give you a rose  
+for every time you made me smile,  
+we’d be lost in red forever.

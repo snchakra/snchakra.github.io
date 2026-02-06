@@ -1,0 +1,12 @@
+---
+layout: protected-post
+title: "Kiss Day 🌹"
+date:   2026-02-13 05:08:46 +0100
+categories: jekyll update
+password: r1
+riddle: "Among food, meeting and quiet waiting, something else began. Not the beginning of the universe, people look for there, but the beginning of us."
+---
+
+If I could give you a rose  
+for every time you made me smile,  
+we’d be lost in red forever.
