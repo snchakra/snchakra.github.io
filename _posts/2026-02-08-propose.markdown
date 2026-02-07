@@ -1,6 +1,6 @@
 ---
 layout: protected-post
-title: "Propose Day 🌹"
+title: "Propose Day 💍"
 date:   2026-02-08
 categories: jekyll update
 password: milan
