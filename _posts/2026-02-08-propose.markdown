@@ -1,12 +1,79 @@
 ---
 layout: protected-post
 title: "Propose Day 🌹"
-date:   2026-02-08 05:08:46 +0100
+date:   2026-02-08
 categories: jekyll update
 password: milan
 riddle: “I am a city of fashion and romance, where canals whisper secrets and nights dance. Type me right, and our first year blooms again.”
 ---
 
-If I could give you a rose  
-for every time you made me smile,  
-we’d be lost in red forever.
+<p style="text-align:center;font-style:italic;">
+You're like the warm light dancing,<br>
+with the shadows on my wall.<br>
+A practice of the sun to show its softness,<br>
+A chance to behold the face of love.<br><br>
+
+There are small, simple moments<br>
+where I think to myself,<br>
+How lucky I'm to be so close<br>
+to a warmth of your magnitude. <br><br>
+
+You hold the light of the sun, <br>
+and you share it with me in ways my body can hold.<br><br>
+
+The yawn and stretch before you start your day,<br>
+the way you call my name,<br>
+the wind at your face while we laugh,<br>
+while we sing and walk to your favorite songs.<br><br>
+
+I know if icarus could see me now,<br>
+he'd probably ask me, how I did it. 
+</p>
+
+<div class="gallery">
+  {% for i in (1..7) %}
+    <div class="gallery-item">
+      <img src="{{ '/images/propose/image' | append: i | append: '.jpg' | relative_url }}" alt="Gallery image {{ i }}">
+    </div>
+  {% endfor %}
+</div>
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 25px;
+}
+.gallery-item {
+  text-align: center;
+}
+.gallery-item img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+.caption {
+  font-size: 1em;
+  margin-top: 8px;
+  color: #555;
+  font-style: italic;
+  line-height: 1.3;
+}
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .gallery-item img {
+    max-width: 90%;
+  }
+}
+</style>
