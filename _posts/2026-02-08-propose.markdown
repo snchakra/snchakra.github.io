@@ -1,7 +1,7 @@
 ---
 layout: protected-post
 title: "Propose Day 💍"
-date:   2026-02-08 00:08:00 +0100
+date:   2026-02-08
 categories: jekyll update
 password: milan
 riddle: “I am a city of fashion and romance, where canals whisper secrets and nights dance. Type me right, and our first year blooms again.”
