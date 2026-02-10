@@ -27,7 +27,7 @@ my everything, my all that's left.
 <div class="gallery">
   {% for i in (1..7) %}
     <div class="gallery-item">
-      <img src="{{ '/images/teddy/image' | append: i | append: '.JPG' | relative_url }}" alt="Gallery image {{ i }}">
+      <img src="{{ '/images/teddy/image' | append: i | append: '.jpg' | relative_url }}" alt="Gallery image {{ i }}">
     </div>
   {% endfor %}
 </div>
