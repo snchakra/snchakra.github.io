@@ -1,12 +1,73 @@
 ---
 layout: protected-post
 title: "Teddy Day 🌹"
-date:   2026-02-10 05:08:46 +0100
+date:   2026-02-10
 categories: jekyll update
 password: jennifercoolidge
 riddle: “I make you laugh, I make you swoon, From Legally Blonde to American Pie’s cartoon. Type my name, the queen of comedy, And unlock a smile just for you.”
 ---
 
-If I could give you a rose  
-for every time you made me smile,  
-we’d be lost in red forever.
+<p style="text-align:center;font-style:italic;">
+For you I would provide acts of love,<br>
+that remind you its never too much.<br>
+Keep my words arms length,<br>
+so they never feel out of touch.<br>
+If we're ever off base,<br>
+I would never hold a grudge.<br><br>
+Because....<br><br>
+I want to be the home you run to,<br>
+I would tear down walls or build up worlds for you.<br>
+Both in and around our hearts,<br>
+A place you can find rest in,<br>
+A place to be your best in.<br><br>
+For you ...<br><br>
+I'd give my very best,<br>
+my everything, my all that's left.
+</p>
+<div class="gallery">
+  {% for i in (1..7) %}
+    <div class="gallery-item">
+      <img src="{{ '/images/teddy/image' | append: i | append: '.JPG' | relative_url }}" alt="Gallery image {{ i }}">
+    </div>
+  {% endfor %}
+</div>
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 25px;
+}
+.gallery-item {
+  text-align: center;
+}
+.gallery-item img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+.caption {
+  font-size: 1em;
+  margin-top: 8px;
+  color: #555;
+  font-style: italic;
+  line-height: 1.3;
+}
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .gallery-item img {
+    max-width: 90%;
+  }
+}
+</style>

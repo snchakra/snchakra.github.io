@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-02-09T08:51:32+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Waiting Pages</title><subtitle>This space was made for you — to open gently, follow the clues, and find what’s been waiting.</subtitle><entry><title type="html">Chocolate Day 🍫</title><link href="http://localhost:4000/jekyll/update/2026/02/09/chocolate.html" rel="alternate" type="text/html" title="Chocolate Day 🍫" /><published>2026-02-09T00:00:00+01:00</published><updated>2026-02-09T00:00:00+01:00</updated><id>http://localhost:4000/jekyll/update/2026/02/09/chocolate</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2026/02/09/chocolate.html"><![CDATA[<p style="text-align:center;font-style:italic;">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-02-10T09:06:00+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Waiting Pages</title><subtitle>This space was made for you — to open gently, follow the clues, and find what’s been waiting.</subtitle><entry><title type="html">Teddy Day 🌹</title><link href="http://localhost:4000/jekyll/update/2026/02/10/teddy.html" rel="alternate" type="text/html" title="Teddy Day 🌹" /><published>2026-02-10T00:00:00+01:00</published><updated>2026-02-10T00:00:00+01:00</updated><id>http://localhost:4000/jekyll/update/2026/02/10/teddy</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2026/02/10/teddy.html"><![CDATA[<p style="text-align:center;font-style:italic;">
+For you I would provide acts of love,<br />
+that remind you its never too much.<br />
+Keep my words arms length,<br />
+so they never feel out of touch.<br />
+If we're ever off base,<br />
+I would never hold a grudge.<br /><br />
+Because....<br /><br />
+I want to be the home you run to,<br />
+I would tear down walls or build up worlds for you.<br />
+Both in and around our hearts,<br />
+A place you can find rest in,<br />
+A place to be your best in.<br /><br />
+For you ...<br /><br />
+I'd give my very best,<br />
+my everything, my all that's left.
+</p>
+<div class="gallery">
+  
+    <div class="gallery-item">
+      <img src="/images/teddy/image1.JPG" alt="Gallery image 1" />
+    </div>
+  
+    <div class="gallery-item">
+      <img src="/images/teddy/image2.JPG" alt="Gallery image 2" />
+    </div>
+  
+    <div class="gallery-item">
+      <img src="/images/teddy/image3.JPG" alt="Gallery image 3" />
+    </div>
+  
+    <div class="gallery-item">
+      <img src="/images/teddy/image4.JPG" alt="Gallery image 4" />
+    </div>
+  
+    <div class="gallery-item">
+      <img src="/images/teddy/image5.JPG" alt="Gallery image 5" />
+    </div>
+  
+    <div class="gallery-item">
+      <img src="/images/teddy/image6.JPG" alt="Gallery image 6" />
+    </div>
+  
+    <div class="gallery-item">
+      <img src="/images/teddy/image7.JPG" alt="Gallery image 7" />
+    </div>
+  
+</div>
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 25px;
+}
+.gallery-item {
+  text-align: center;
+}
+.gallery-item img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+.caption {
+  font-size: 1em;
+  margin-top: 8px;
+  color: #555;
+  font-style: italic;
+  line-height: 1.3;
+}
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .gallery-item img {
+    max-width: 90%;
+  }
+}
+</style>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[For you I would provide acts of love, that remind you its never too much. Keep my words arms length, so they never feel out of touch. If we're ever off base, I would never hold a grudge. Because.... I want to be the home you run to, I would tear down walls or build up worlds for you. Both in and around our hearts, A place you can find rest in, A place to be your best in. For you ... I'd give my very best, my everything, my all that's left.]]></summary></entry><entry><title type="html">Chocolate Day 🍫</title><link href="http://localhost:4000/jekyll/update/2026/02/09/chocolate.html" rel="alternate" type="text/html" title="Chocolate Day 🍫" /><published>2026-02-09T00:00:00+01:00</published><updated>2026-02-09T00:00:00+01:00</updated><id>http://localhost:4000/jekyll/update/2026/02/09/chocolate</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2026/02/09/chocolate.html"><![CDATA[<p style="text-align:center;font-style:italic;">
 Measure my love in dust,<br />
 the layers on photographs of the summer,<br />
 the ones that we spent together.<br /><br />
